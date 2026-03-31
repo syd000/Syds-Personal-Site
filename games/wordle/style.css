@@ -1,8 +1,19 @@
+:root {
+  --lightGreen: #effff4;
+  --lightGreenAccent: #bed7c5;
+  --mediumGreen: #89b194;
+  --mediumGreenAccent: #267f4c;
+  --darkGreen: #0b5d35;
+  --darkGreenAccent: #053d22;
+  --brown: #888;
+  --white: #ffffff;
+}
+
 body {
   margin: 0;
   font-family: monospace;
-  background: rgb(190, 215, 197);
-  color: white;
+  background: var(--lightGreenAccent);
+  color: var(--white);
   text-align: center;
 }
 
@@ -15,7 +26,7 @@ body {
 }
 
 .subtitle {
-  color: #a5ada6;
+  color: var(--mediumGreenAccent);
   margin-bottom: 20px;
 }
 
@@ -25,7 +36,7 @@ body {
   padding: 20px;
   width: 300px;
   min-height: 150px;
-  background: #267f4c;
+  background: var(--mediumGreenAccent);
   border-radius: 10px;
 }
 
@@ -37,21 +48,21 @@ body {
 button {
   padding: 10px 20px;
   border: none;
-  background: rgb(127, 182, 143);
-  color: white;
+  background: var(--mediumGreenAccent);
+  color: var(--white);
   border-radius: 8px;
   cursor: pointer;
 }
 
 button:hover {
-  background: rgb(52, 115, 70);;
+  background: var(--darkGreen);
 }
 
 /* BACK LINK */
 .back {
   display: block;
   margin-top: 30px;
-  color: #888;
+  color: var(--brown);
   text-decoration: none;
 }
 
