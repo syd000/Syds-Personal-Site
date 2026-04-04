@@ -5,6 +5,7 @@ let gameRunning = false;
 function startGame() {
   gameRunning = true;
   setStatus("Game started!");
+  setStart("Reset");
 
   initGame();
 }
@@ -21,4 +22,7 @@ function initGame() {
 // UPDATE STATUS TEXT
 function setStatus(text) {
   document.getElementById("status").innerText = text;
+}
+function setStart(text) {
+  document.getElementById("start").innerText = text;
 }
