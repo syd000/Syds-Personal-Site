@@ -1,0 +1,122 @@
+:root {
+  --lightGreen: #effff4;
+  --lightGreenAccent: #bed7c5;
+  --mediumGreen: #89b194;
+  --mediumGreenAccent: #267f4c;
+  --darkGreen: #0b5d35;
+  --darkGreenAccent: #053d22;
+  --brown: #888;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+  background: var(--lightGreenAccent);
+  color: var(--white);
+  text-align: center;
+}
+
+.container {
+  padding: 40px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  color: var(--mediumGreenAccent);
+  margin-bottom: 20px;
+}
+
+/* GAME AREA */
+#game {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  min-height: 150px;
+  background: var(--mediumGreenAccent);
+  border-radius: 10px;
+}
+
+/* UI */
+.ui {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: var(--mediumGreenAccent);
+  color: var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--darkGreen);
+}
+
+/* BACK LINK */
+.back {
+  display: block;
+  margin-top: 30px;
+  color: var(--brown);
+  text-decoration: none;
+}
+
+/* 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 40px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+#game {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  min-height: 150px;
+  background: #1a1a1a;
+  border-radius: 10px;
+}
+
+.ui {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+.back {
+  display: block;
+  margin-top: 30px;
+  color: #888;
+  text-decoration: none;
+} */
